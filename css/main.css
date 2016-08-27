@@ -17,7 +17,7 @@ a:hover {
     text-decoration: underline;
 }
 
-a.button:hover {38
+a.button:hover 
     text-decoration: none;
 }
 
@@ -28,7 +28,8 @@ div.navigation {
 div.navigation ul {
 	float: right;
     margin-right: 25px;
-    margin-top: 0;
+    margin-top: -90px;
+
 }
 
 div.navigation  li {
@@ -82,11 +83,14 @@ div.navigation a:hover {
 
 .cta {
     height: 384px;
-    margin-top: 90px;
+    margin-top: 91px;
+
 }
 
 .cta .logo {
     text-align: center;
+    padding: 60px;
+
 }
 
 .cta input {
@@ -133,11 +137,14 @@ div.footer {
 
 div.footer ul.left {
 	float: left;
+    padding-left: 10px;
+    margin: 5px;
 }
 
 div.footer ul.right{
 	float: right;
-    padding-right: 40px;
+    padding-right: 0px;
+    margin: 5px;
 }
 
 div.footer li {
@@ -147,3 +154,32 @@ div.footer li {
     padding: 5px 10px 0 0;
     vertical-align: bottom;
 }
+
+@media(max-width:450px); {
+    div.navigation ul {
+        padding-left: 10px;
+        margin-right: 5px;
+}
+
+@media(max-width:800px); {
+    .cta input {
+        padding: 15px;
+        width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
